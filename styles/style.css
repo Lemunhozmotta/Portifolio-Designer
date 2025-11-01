@@ -95,8 +95,48 @@ main p {
     padding: 20px 0px;
 }
 
+main img.pequena {
+    display: block;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
+
+}
+
+div.video {
+    background-color: #732929;
+    position: relative;
+    padding-bottom: 50%;
+    border-radius: 15px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
 aside {
     background-color: var(--cor04);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+aside h3 {
+    margin: -20px -20px 0px -20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+aside ul {
+    list-style-type: \2713\00a0;
+    columns: 2;
+    padding: 20px;
 }
 
 footer {
