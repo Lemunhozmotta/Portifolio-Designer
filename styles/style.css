@@ -115,9 +115,10 @@ div.video {
 
 div.video iframe {
     position: absolute;
+    border-radius: 10px;
     top: 5%;
-    left: 5%;
-    width: 90%;
+    left: 10%;
+    width: 80%;
     height: 90%;
 
 }
